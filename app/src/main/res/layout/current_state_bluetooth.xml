@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/f_s_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="\n正在检测于小车连接状态"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

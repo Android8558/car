@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_key"
+            android:icon="@drawable/key_control"
+            android:title="按键模式" />
+        <item
+            android:id="@+id/nav_gravity"
+            android:icon="@drawable/gravity_control"
+            android:title="重力感应" />
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@drawable/voice_control"
+            android:title="语音模式" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat_icon"
+            android:title="聊天模式" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:title="规定模式" />
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@drawable/tools_check"
+            android:title="故障检测" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share_icon"
+            android:title="分享" />
+
+    </group>
+
+
+</menu>

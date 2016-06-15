@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+
+    >
+    <TextView
+        android:id="@+id/chat_content_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/chat_img_send"
+        android:background="@drawable/chat_send_bg"
+        android:gravity="center"
+        android:text="@string/action_bluetooth_close"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/chat_img_send"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/chat_send_img" />
+
+
+</RelativeLayout>

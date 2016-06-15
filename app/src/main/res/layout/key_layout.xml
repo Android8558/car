@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btn_forword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="向前" />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_forword"
+        android:layout_toLeftOf="@+id/btn_forword"
+        android:layout_toStartOf="@+id/btn_forword"
+        android:text="向左" />
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_forword"
+        android:layout_toEndOf="@+id/btn_forword"
+        android:layout_toRightOf="@+id/btn_forword"
+        android:text="向右" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_right"
+        android:layout_toEndOf="@+id/btn_left"
+        android:layout_toRightOf="@+id/btn_left"
+        android:text="向后" />
+
+    <TextView
+        android:id="@+id/tv_key_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_back"
+        android:layout_centerHorizontal="true"
+        android:text="停止" />
+</RelativeLayout>
