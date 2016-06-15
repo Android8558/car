@@ -49,6 +49,7 @@ public class ConnectedThread extends Thread {
 
         mmOutStream = tmpOut;
 
+
     }
 
 
